@@ -50,7 +50,7 @@ function chapterTitle() {
     CHAPTER_TITLE.textContent = `Capítulo ${actualChapter}`;
 }
 
-updateChapter(); // Adicione esta linha para garantir a inicialização correta
+updateChapter();
 
 chapterTitle();
 
