@@ -4,9 +4,10 @@ const BUTTON_SKIP = document.getElementById('skip');
 const CHAPTER_AUDIO = document.getElementById('chapterAudio');
 const CHAPTER_TITLE = document.getElementById('title');
 
+// Variáveis de controle
 const CHAPTERS = 10;
 let actualChapter = 1;
-let isPlaying = false; // Variável de controle
+let isPlaying = false; 
 
 function play() {
     CHAPTER_AUDIO.play();
